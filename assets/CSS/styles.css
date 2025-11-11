@@ -1,0 +1,38 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(0, 0, 0); /* Cambia el color de todos los títulos a rojo */
+}
+
+#imagen {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background: linear-gradient(to right, rgb(0, 151, 226), white);
+    }
+  
+}
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      background: linear-gradient(to right, rgb(227, 117, 0), white);
+    }
+
+
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+      background: linear-gradient(to right, rgb(226, 0, 60), white);
+    }
+
+  
+}
